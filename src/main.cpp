@@ -81,7 +81,7 @@ void setup() {
 char itoaBuf[64];
 char dtostrfBuf[64];
 
-unsigned int deepSleepMillis = 60000;
+unsigned int deepSleepMillis = 60000 * 5;
 
 void updateSystemStats() {
     long rssi = WiFi.RSSI();
